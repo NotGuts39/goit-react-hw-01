@@ -1,0 +1,24 @@
+table {
+  width: 350px;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Стили для заголовков таблицы */
+thead th {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f2f2f2;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+tbody td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}

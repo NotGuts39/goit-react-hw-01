@@ -1,0 +1,21 @@
+.itemsContainer {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 350px;
+  text-align: center;
+  padding: 0;
+}
+
+.itemsContainer li {
+  padding-top: 10px;
+  flex: 1;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.itemsContainer li:last-child {
+  margin-right: 0px;
+}
