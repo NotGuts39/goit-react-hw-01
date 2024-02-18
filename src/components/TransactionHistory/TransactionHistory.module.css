@@ -1,4 +1,4 @@
-table {
+.transactionTable {
   width: 350px;
   border-collapse: collapse;
   margin: auto;
@@ -6,19 +6,22 @@ table {
   text-align: center;
 }
 
-/* Стили для заголовков таблицы */
-thead th {
+.tableHeader {
   background-color: rgba(0, 0, 0, 0.8);
   color: #f2f2f2;
   border: 1px solid black;
   padding: 8px;
 }
 
-tbody td {
+.tableCell {
   border: 1px solid black;
   padding: 8px;
 }
 
-tbody tr:nth-child(even) {
+.tableInformation {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tableInformation:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0);
 }
